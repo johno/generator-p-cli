@@ -1,0 +1,23 @@
+{
+  "name": "<%= packageName %>",
+  "description": "<%= description %>",
+  "author": "<%= name %>",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "<%= packageName %>": "index.js"
+  },
+  "engines": {
+    "node": ">= 5"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "<%= github %>/<%= packageName %>",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}

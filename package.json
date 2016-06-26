@@ -1,0 +1,42 @@
+{
+  "name": "generator-p-cli",
+  "version": "1.0.0",
+  "description": "A minimal yeoman generator for npm packages",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "johnotander/generator-p-cli",
+  "author": "John Otander",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "jshint": "standard ."
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "npm",
+    "package",
+    "minimal",
+    "generator",
+    "p",
+    "p-cli",
+    "cli"
+  ],
+  "dependencies": {
+    "camelize": "^1.0.0",
+    "chalk": "^0.5.0",
+    "yeoman-generator": "^0.17.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
