@@ -1,4 +1,4 @@
-# generator-p-cli [![Build Status](https://secure.travis-ci.org/johnotander/generator-p-cli.png?branch=master)](https://travis-ci.org/johnotander/generator-p-cli) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# generator-p-cli [![Build Status](https://secure.travis-ci.org/johnotander/generator-p-cli.svg?branch=master)](https://travis-ci.org/johnotander/generator-p-cli) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 A minimal yeoman generator for npm packages. This is intended to cut out the majority of boilerplate required in creating a cli npm module. For non-cli modules see [generator-p](https://github.com/johnotander/generator-p).
 
